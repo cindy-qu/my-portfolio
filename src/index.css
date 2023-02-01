@@ -1,13 +1,155 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@800&family=PT+Sans&display=swap');
+
+/* body {
+  font-family: 'Montserrat', sans-serif;
+  } */
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+  /* font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
+    sans-serif; */
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background-color: #F6EBF4;
+  color: #542e7d
 }
 
-code {
+/* code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+} */
+
+/* home */
+#home {
+  font-size: 6rem;
+  padding-top: 15rem;
+  text-align: center;
+  z-index:1;
+  position: fixed;
+  font-family: 'Nunito', sans-serif;
+}
+
+.home2 {
+  font-size: 2rem;
+  padding-top: 20rem;
+  text-align: center;
+  z-index:1;
+  position: fixed;
+  
+}
+
+.homebuttons {
+  font-size: 2rem;
+  padding-top: 24rem;
+  text-align: center;
+  z-index:1;
+  position: fixed;
+  
+}
+
+.home2 h2 {
+  font-family: 'PT Sans', sans-serif;
+}
+
+#homeimage{
+  padding-top: 10rem;
+  z-index:1;
+  position: fixed;
+  width: 50rem;
+}
+
+#hometag {
+  font-size: 2rem;
+
+  text-align: center;
+}
+
+/* about */
+
+#about {
+  
+  padding-top: 2rem
+}
+
+#about h1 {
+  font-family: 'Nunito', sans-serif;
+}
+
+#about p {
+  font-family: 'PT Sans', sans-serif;
+}
+
+#faqimage {
+  z-index:1;
+  position: fixed;
+  width: 35rem;
+}
+
+#header {
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+
+
+}
+/* menu */
+.ui.menu {
+  border-bottom: 0 none !important;
+  box-shadow: none;
+  z-index:1 !important;
+}
+
+.ui.menu .item {
+  color: #542e7d;
+  z-index:1 !important;
+}
+
+.ui.secondary.pointing.menu .header.item{
+  color: #542e7d !important;
+}
+
+#menuname {
+  font-family: 'Nunito', sans-serif;
+  font-size: 1.5rem;
+}
+
+.menulinks {
+  font-family: 'Nunito', sans-serif;
+}
+
+.icon {
+  color: #8038df !important;
+}
+
+.icon:hover {
+  color: #542e7d !important;
+  transition: all .4s ease-in-out;
+}
+
+#resume {
+  padding-top: 5rem;
+  padding-left: 5rem;
+  padding-right: 5rem;
+  display: flex;
+  justify-content: center;
+}
+
+#resume iframe {
+  width: 90%;
+  height: 50rem;
+}
+
+/* contact */
+.contact h1 {
+
+  font-family: 'Nunito', sans-serif;
+}
+
+.contact {
+  font-family: 'PT Sans', sans-serif;
+}
+
+/* work */
+
+#demobutton a {
+  color: #ffffff;
 }
