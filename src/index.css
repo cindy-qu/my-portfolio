@@ -24,7 +24,7 @@ body {
   font-size: 6rem;
   padding-top: 15rem;
   text-align: center;
-  z-index:1;
+  z-index:2;
   position: fixed;
   font-family: 'Nunito', sans-serif;
 }
@@ -33,7 +33,7 @@ body {
   font-size: 2rem;
   padding-top: 20rem;
   text-align: center;
-  z-index:1;
+  z-index:2;
   position: fixed;
   
 }
@@ -42,7 +42,7 @@ body {
   font-size: 2rem;
   padding-top: 24rem;
   text-align: center;
-  z-index:1;
+  z-index:2;
   position: fixed;
   
 }
