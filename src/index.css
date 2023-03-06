@@ -138,6 +138,16 @@ body {
   height: 50rem;
 }
 
+@media only screen 
+and (min-device-width : 320px) 
+and (max-device-width : 480px) {
+/* Styles */
+#resume {
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+}
+
 /* contact */
 .contact h1 {
 
