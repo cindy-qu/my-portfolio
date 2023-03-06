@@ -11,19 +11,25 @@ const Home = () => {
 
         <Grid stackable columns={2}>
         <Grid.Column id="homepage">
-            <h1 id ="home">
+          <div>
+          <h1 id ="home">
                 Hi, I’m Cindy
-                
-            </h1>
-            <h2 className = "home2">Accountant turned Software Developer</h2>
-           
-            
-            <p className = "homebuttons">
+                <h2 className = "home2">Accountant turned Software Developer</h2>  
+                <br></br>
+                 <br></br>
+                <p className = "homebuttons">
               <a href="https://github.com/cindy-qu"><Icon size="small" name="github"></Icon></a>
               <a href="https://www.linkedin.com/in/cindy-qu/"><Icon size="small" name="linkedin"></Icon></a>
               <a href="/contact"><Icon size="small" name="mail"></Icon></a>
 
             </p>
+            </h1>
+           
+          </div>
+
+           
+            
+
             {/* <p className ="home2">
               <a href="https://github.com/cindy-qu"><Icon size="big" name="github"></Icon></a>
               <a href="https://github.com/cindy-qu"><Icon size="big" name="linkedin"></Icon></a>

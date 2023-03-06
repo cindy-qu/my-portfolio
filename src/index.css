@@ -22,7 +22,7 @@ body {
 /* home */
 #home {
   font-size: 6rem;
-  padding-top: 15rem;
+ 
   text-align: center;
   z-index:2;
   position: fixed;
@@ -31,7 +31,7 @@ body {
 
 .home2 {
   font-size: 2rem;
-  padding-top: 20rem;
+ 
   text-align: center;
   z-index:2;
   position: fixed;
@@ -40,7 +40,7 @@ body {
 
 .homebuttons {
   font-size: 2rem;
-  padding-top: 24rem;
+  padding-top: 2rem;
   text-align: center;
   z-index:2;
   position: fixed;
