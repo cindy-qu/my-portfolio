@@ -38,7 +38,7 @@ function App() {
             />
             <Menu.Item
               name="work"
-              as={Link} to="/mywork"
+              as={Link} to="/projects"
               className = "menulinks"
             />
             <Menu.Item
@@ -55,7 +55,7 @@ function App() {
         <Route path="/" element={<Home/>}></Route>
         <Route path="/resume" element={<Resume/>}></Route>
         <Route path="/about" element={<AboutMe/>}></Route>
-        <Route path="/mywork" element={<MyWork/>}></Route>
+        <Route path="/projects" element={<MyWork/>}></Route>
         <Route path="/contact" element={<Contact/>}></Route>
       </Routes>
       
